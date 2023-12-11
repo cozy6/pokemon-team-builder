@@ -1,7 +1,6 @@
 img {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
     transition: transform 0.3s ease-in-out;
   }
   
@@ -10,22 +9,53 @@ img {
     height: 1;
 }
 
+.gif{
+  position: absolute;
+  top: 77px;
+  left: 837px;
+}
+
 .pokemon-list-container {
   color: #000;
   text-align: left;
-  background-color: #d9d9d9;
-  padding: 65px;
-  border-radius: 10px;
-  margin-top: 12rem;
+  background-color: #F7FBFD;
+  border-radius: 45px;
+  margin-top: 5rem;
+  margin-left: -105px;
+  width: 460px;
+}
+
+.pokemon-selection-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  padding: 45px;
+}
+
+.selection-column{
+  display: flex;
+  flex-direction: column;
+  /* height: 16px; */
+  gap: .25rem; 
+}
+
+.pokemon-image {
+  margin-bottom: -65px;
 }
 
 .add-to-team-button {
-  margin-top: 2rem;
-  background-color: #fff;
+  margin-top: 1rem;
+  background-color: #F7FBFD;
+  font-family: flexo;
+  font-weight: 600;
+  margin-right: 45px;
   border: none;
-  padding: 10px;
-  border-radius: 30px;
-  font-size: 10px;
+  text-decoration: underline 1.5px;
+  float: right;
+  text-underline-offset: 3px;
+  font-size: 13px;
+  
 }
 
 select {
@@ -34,4 +64,23 @@ select {
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
+  font-family: flexo;
+}
+
+.selected-item p {
+font-size: 12px;
+position: absolute;
+}
+
+.desc-container {
+  position:relative;
+  top: 70px;
+  background-color: #C4CDFF;
+  padding: 10px 45px 15px 45px;
+  margin: 0px;
+  border-radius: 0px 0px 45px 45px;
+}
+
+.desc-container p {
+  font-size: 14px;
 }
