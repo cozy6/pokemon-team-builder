@@ -1,0 +1,55 @@
+{
+    "pokemon": [
+      {
+        "name": "Venusaur",
+        "id": "1",
+        "image": "/img/Venusaur.svg"
+      },
+      {
+        "name": "Dewgong",
+        "id": "2",
+        "image": "/img/Dewgong.svg"
+      },
+      {
+        "name": "Gengar",
+        "id": "3",
+        "image": "/img/Gengar.svg"
+      },
+      {
+        "name": "Lapras",
+        "id": "4",
+        "image": "/img/Lapras.svg"
+      },
+      {
+        "name": "Dragonite",
+        "id": "5",
+        "image": "/img/Dragonite.svg"
+      },
+      {
+        "name": "Raichu",
+        "id": "6",
+        "image": "/img/raichu.svg"
+      },
+      {
+        "name": "Dugtrio",
+        "id": "7",
+        "image": "/img/dugtrio.svg"
+      },
+      {
+        "name": "Wigglytuff",
+        "id": "8",
+        "image": "/img/wiggly-tuff.svg"
+      },
+      {
+        "name": "Umbreon",
+        "id": "9",
+        "image": "/img/umbreon.svg"
+      },
+      {
+        "name": "Mewtwo",
+        "id": "10",
+        "image": "/img/mewtwo.svg"
+      }
+    ]
+  }
+  
